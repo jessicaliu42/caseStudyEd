@@ -1,0 +1,119 @@
+body{
+    font-family: Lato;
+    margin: 0;
+}
+.header nav{
+    background-color: transparent !important;
+}
+.active{
+    border-bottom: .25rem solid #F2B705 !important;
+}
+.active a{
+    color: #F2B705 !important;
+}
+.header nav ul li{
+    margin: 30px 50px 0px 50px;
+    border-bottom: .25rem solid #43D9BD;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #43D9BD;
+    font-weight: 900;
+    cursor: pointer;
+} 
+
+.header nav ul li:hover{
+    border-bottom: .25rem solid #F2B705;
+}
+
+.header nav ul li a:hover{
+    color: #F2B705;
+}
+
+.cover{
+    background-image: url(../asset/photo-1507925921958-8a62f3d1a50d.jpg);
+    background-color: grey;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image:none !important;
+}
+main{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.title{
+    background-color: transparent;
+    color: #43D9BD;
+}
+.mainContant{
+    text-align: left;
+    /* padding: 5px 400px 10px 400px; */
+    color:white;
+    max-width: 850px;
+}
+.mainContant ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
+/*.mainOverview{
+    display: flex;
+}
+.mainOverview div{
+    margin: 0px 40px 0px 0px;
+}*/
+.containerInside{
+max-width: 850px;
+padding: 35px;
+}
+.section{
+    margin: 0px;
+    width: 100%;
+    padding: 0px !important;
+}
+
+section h1{
+    font-family: 'Knewave', cursive;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: #15453C;
+    width: 100%;
+    padding: 40px;
+    color: white;
+}
+.contact{
+    background-color: #15453C;
+    color: white;
+}
+.contactContent{
+    text-align: center;
+}
+.contact h3{
+    text-align: center;
+}
+
+.contactintro{
+    /* padding: 0px 350px 30px 350px; */
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.contactintro svg{
+   margin: 5px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+} 
