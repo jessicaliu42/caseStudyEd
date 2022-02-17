@@ -103,7 +103,6 @@ section h1{
 }
 
 .contactintro{
-    /* padding: 0px 350px 30px 350px; */
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr;
@@ -117,3 +116,21 @@ section h1{
     color: white;
     text-align: center;
 } 
+section img{
+    padding:20px;
+}
+@media screen and (max-width: 600px) {
+    .header{
+        position: absolute;
+    } 
+    .header nav{
+        background-color: #15453C !important;
+    }
+    .header nav ul li {
+        margin: 10px 50px 10px 50px;
+        text-align: center;
+    }
+    .mainContant{
+       text-align: center;
+    }
+}
